@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To update a paragraph</title>
+	<style>
+		.letter {
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<h2>Welcome to Bootcamp</h2>
+	<p>
+		<span id="t1" class="letter">Bootcamp</span>
+		is going
+		<span id="t2" class="letter">good</span>
+
+	</p>
+	<button type="button" onclick="changeText()">Change Text</button>
+	<script>
+		 function changeText() {
+			// body...
+			document.getElementById('t1').innerHTML = "madBlocks Bootcamp";
+		}
+	</script>
+
+</body>
+</html>
